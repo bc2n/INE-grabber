@@ -1,4 +1,4 @@
-# ⚡ INE Malware Builder v7.4 — README
+#  INE Malware Builder v7.4 — README
 
 **Expanded Browsers + Luna Features**  
 *by NODE — INE Project*
@@ -15,7 +15,7 @@ Version 7.4 expands browser coverage to **15 Chromium-based targets**, adds Luna
 
 ## Features at a Glance
 
-### 🔑 Credential Harvesting
+###  Credential Harvesting
 | Module | Target |
 |--------|--------|
 | Passwords | Saved browser logins (Chromium AES-GCM decryption) |
@@ -26,7 +26,7 @@ Version 7.4 expands browser coverage to **15 Chromium-based targets**, adds Luna
 | WiFi Passwords | All saved wireless profiles via `netsh` |
 | Authenticator | Google Auth registry, WinAuth XML, Authy, browser extension TOTP seeds, Microsoft Authenticator |
 
-### 💰 Financial & Gaming
+###  Financial & Gaming
 | Module | Target |
 |--------|--------|
 | Wallets | Exodus, Atomic, Electrum, Coinomi, Guarda |
@@ -52,7 +52,7 @@ Version 7.4 expands browser coverage to **15 Chromium-based targets**, adds Luna
 | Extensions | Full extension directory copy from all profiles |
 | Telegram Sessions | `tdata` folder copy for session hijacking |
 
-### 🛡️ Persistence & Evasion
+###  Persistence & Evasion
 | Module | Function |
 |--------|----------|
 | Disable Defender | Registry + PowerShell: RTP, behavior monitoring, cloud protection, script scanning, sample submission |
@@ -63,7 +63,7 @@ Version 7.4 expands browser coverage to **15 Chromium-based targets**, adds Luna
 | Self-Destruct | Batch file loop deletes the payload executable after exfiltration |
 | Fake Error | Displays a customizable `tkinter` error popup to the victim |
 
-### 🌍 Expanded Browser Support (15 Browsers)
+###  Expanded Browser Support (15 Browsers)
 ```
 Chrome  •  Edge  •  Brave  •  Opera  •  Vivaldi
 Kometa  •  Orbitum  •  CentBrowser  •  7Star  •  Sputnik
@@ -195,7 +195,7 @@ pip install customtkinter requests Pillow pyinstaller browser-cookie3 cryptograp
 
 6. **Pick an icon** (optional, `.exe` only) — `.ico`, `.png`, or `.jpg`
 
-7. **Set filename** and click **⚡ BUILD**
+7. **Set filename** and click ** BUILD**
 
 8. **Retrieve your payload** from the `output/` directory.
 
